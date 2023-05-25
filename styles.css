@@ -1,0 +1,70 @@
+body {
+    background: #ffffff; /* Make it white if you need */
+    color: #000000;
+    padding: 0 24px;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif
+  }
+  
+  h1 {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif
+  }
+  
+  #secretary-container {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  #notes-list {
+    justify-content: left;
+    align-items: left;
+    list-style-type: none;
+    padding: 0;
+    font-family: Consolas;
+  }
+  
+  .note {
+    justify-content: left;
+    align-items: left;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .note .timestamp {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  #input-container {
+    justify-content: left;
+    align-items: left;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  #note-input {
+    justify-content: left;
+    align-items: left;
+    width: 400px;
+    height: 100px;
+    resize: vertical;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    justify-content: left;
+    align-items: left;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
